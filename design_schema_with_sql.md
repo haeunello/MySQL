@@ -1,5 +1,5 @@
-## Design schema with sql
---------------------------
+ Design schema with sql
+-----------------------------
 
 ### 1. Create a database called 'mydata'
   + check the exising databases before create a new one.
