@@ -1,3 +1,6 @@
+Design a small database using gmarket web page  
+-----------------------------------------------
+
 ### 1. Create a database and tables
   + 'ecommerce' Database is referring to [GMARKET Bestsellers web page](http://corners.gmarket.co.kr/Bestsellers?viewType=G&groupCode=G01).
   + There are two tables, 'product' table and 'ranking' table. 
