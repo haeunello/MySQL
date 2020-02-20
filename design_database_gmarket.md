@@ -57,8 +57,8 @@ SELECT * FROM ranking;
 ~~~
 
 <div>
-<src= 'https://user-images.githubusercontent.com/58417351/74925773-2c747780-5418-11ea-83dd-2819614b4af3.PNG'>
-<src= 'https://user-images.githubusercontent.com/58417351/74925798-3ac29380-5418-11ea-9cdb-8dfdec5a6d1b.PNG'>
+<img height = '100' img width='400' src= 'https://user-images.githubusercontent.com/58417351/74925773-2c747780-5418-11ea-83dd-2819614b4af3.PNG'>
+<img height = '100' img width='400' src= 'https://user-images.githubusercontent.com/58417351/74925798-3ac29380-5418-11ea-9cdb-8dfdec5a6d1b.PNG'>
 </div>
 
 
