@@ -5,7 +5,7 @@ MySQL with PyMySQL python library2 ; Focusing on CRUD
 3. [Data Modification](#3-data-modification)
 4. [Data Deletion](#4-data-deletion)
 
-### 1 Data Insertion
+### 1. Data Insertion
   + declaration of cursor object : cursor = db.cursor()
   + execution of SQL : cursor.execute(sql)
   + confirmation of the reflection : db.commit()
@@ -43,7 +43,7 @@ for index in range(1,11):
 db.commit()
 ~~~
 
-### 2 Data Retrieval
+### 2. Data Retrieval
   + declaration of cursor object : cursor = db.cursor()
   + execution of SQL : cursor.execute(sql)
   + use cursor.fetch() method 
@@ -81,7 +81,7 @@ print(result)
 
 db.close()
 ~~~
-### 3 Data Modification
+### 3. Data Modification
   + declaration of cursor object : cursor = db.cursor()
   + execution of SQL : cursor.execute(sql)
   + confirmation of the reflection : db.commit()
@@ -103,7 +103,7 @@ cursor.execute(sql)
 db.commit()
 db.close()
 ~~~
-### 4 Data Deletion
+### 4. Data Deletion
   + declaration of cursor object : cursor = db.cursor()
   + execution of SQL : cursor.execute(sql)
   + confirmation of the reflection : db.commit()
