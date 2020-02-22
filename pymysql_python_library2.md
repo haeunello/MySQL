@@ -1,9 +1,9 @@
 MySQL with PyMySQL python library2 ; Focusing on CRUD
 ---------------------------------------------------------------
-1. [Data Insertion](#1.-data-insertion)
-2. [Data Retrieval](#2.-data-retrieval) 
-3. [Data Modification](#3.-data-modification)
-4. [Data Deletion](#4.-data-deletion)
+1. [Data Insertion](#-1.-data-insertion)
+2. [Data Retrieval](#-2.-data-retrieval) 
+3. [Data Modification](#-3.-data-modification)
+4. [Data Deletion](#-4.-data-deletion)
 
 ### 1. Data Insertion
   + declaration of cursor object : cursor = db.cursor()
