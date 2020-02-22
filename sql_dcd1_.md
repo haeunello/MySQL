@@ -1,4 +1,4 @@
-SQL DCD(Data Control Language) : MySQL 사용자 확인, 추가, 비밀번호 변경, 삭제 
+SQL DCD(Data Control Language) : 사용자 확인, 추가, 비밀번호 변경, 삭제 
 ----------------------------------------------------------------------------
   + [Window OS] use 'MySQL 8.0 Command Line Client - Unicode' 
   + There is a database called 'mysql' in MySQL.
