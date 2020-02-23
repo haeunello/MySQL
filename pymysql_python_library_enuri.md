@@ -43,5 +43,40 @@ CREATE TABLE product(
 '''
 cursor.execute(sql)
 db.commit()
+~~~
+## 3. Insert data in 'product' table 
+### 3-1. to insert a Top 10 List based on the web page
+~~~  
+sql_list = [
+'''INSERT INTO product VALUES(34128722,'i5','9400F','커피레이크')''',
+'''INSERT INTO product VALUES(32119847,'i7','9700K','커피레이크')''',
+'''INSERT INTO product VALUES(35912378,'i5','9600KF','커피레이크')''',
+'''INSERT INTO product VALUES(38566402,'i7','9700','커피레이크')''',
+'''INSERT INTO product VALUES(32119845,'i5','9600K','커피레이크')''',
+'''INSERT INTO product VALUES(35913093,'i7','9700KF','커피레이크')''',
+'''INSERT INTO product VALUES(37471002,'i5','9700F','커피레이크')''',
+'''INSERT INTO product VALUES(41033611,'셀러론','G4930','커피레이크')''',
+'''INSERT INTO product VALUES(32119849,'i9','9900K','커피레이크')''',
+'''INSERT INTO product VALUES(37117677,'i3','9100F','커피레이크')''']
 
+for sql in sql_list:
+    cursor.execute(sql)
+
+db.commit()
+~~~
+### 3-2. to review data 
+~~~
+sql = '''
+SELECT * FROM product
+'''
+cursor.execute(sql)
+result = cursor.fetchall()
+
+for record in result:
+    print(record)
+
+db.close()
+~~~
+
+#### :page_facing_up: More about [Handling small database with PyMySQL using enuri web page](https://nbviewer.jupyter.org/gist/haeunello/749b7d78f03913f0e7559b21330f7d81): jupyter file on jupyter nbviewer.  
 
